@@ -1,0 +1,12 @@
+x(b)
+{
+if (b > 50)
+    return "no";
+else
+    return b;
+return 1;
+}
+
+
+b = 5;
+print(x(1));

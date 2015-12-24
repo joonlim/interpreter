@@ -1,0 +1,32 @@
+- implement stack of dicts
+
+
+- implement a stack to create the scoping of local variables
+
+	- make stack class
+
+
+- dictionary of stacks of elements
+
+- attribute for Declare (function)
+
+- declaring a function is 
+
+
+
+
+function token: same as variable but with zero or spaces, an opening parenthesis, a comma separated sequence of words without spaces, followed by a closing parenthesis.
+
+function declaration: function + block
+
+
+
+
+
+Declaring a function is a statement that returns nothing.
+
+Execution of a function is a statement that performs other statements.
+
+Store each statement of the function in a queue, and save that queue in the dictionary of functions. 
+
+when it is called with arguments, look in the code all `
